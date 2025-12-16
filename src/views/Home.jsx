@@ -49,7 +49,6 @@ export default function Home() {
           </section>
         ) : view === "admin" ? (
           <section className=" p-5  flex">
-            {" "}
             <AdminTable
               users={users}
               setUsers={setUsers}
